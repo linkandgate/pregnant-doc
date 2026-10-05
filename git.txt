@@ -1,0 +1,14 @@
+# 安装主题
+pip install mkdocs-material mkdocs-windmill
+
+# 启动命令
+mkdocs serve
+
+1. 打包命令
+mkdocs build
+ 2. 添加仓库
+git init
+git remote add origin https://github.com/linkandgate/pregnant-doc.git
+3. 后续使用
+mkdocs build --clean && mkdocs gh-deploy
+mkdocs build --clean && mkdocs master
